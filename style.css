@@ -1,0 +1,40 @@
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+#container, .buttons, h1, #result {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+	border: 1px solid #ccc;
+	padding: 10px;
+	width: 50%;
+	display: flex;
+	margin: 15px 0px;
+}
+
+input:focus{
+	outline: none;
+}
+
+#create,#avg{
+	border: 1px solid #ccc;
+	padding: 10px;
+	width: 40%;
+}
+
+h1,#result{
+	text-align: center;
+	margin: 20px 0px;
+}
+#result{
+	color: blue;
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+}
